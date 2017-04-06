@@ -68,7 +68,7 @@ td {
     display: block;
     margin: 0 auto;
     background-color: purple;
-    background-image: url(Images/bg_image_1.jpg);
+    background-image: url(../Images/bg_image_1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -123,7 +123,7 @@ td {
     margin: 0 auto;
     padding: 0px auto;
     background-color: white;
-    background-image: url(Images/ABOUT_ME.png);
+    background-image: url(../Images/ABOUT_ME.png);
     background-repeat: no-repeat;
     background-position: 10% 48%;
     background-size: 45%;
@@ -161,7 +161,7 @@ td {
     margin: 0 auto;
     padding: 0px auto;
     background-color: #f2f2f2;
-    background-image: url(Images/bg_image_3.jpg);
+    background-image: url(../Images/bg_image_3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: 2px;
@@ -227,8 +227,8 @@ td {
     margin: 0 auto;
     padding: 0px auto;
     background-color: #f2f2f2;
-    background-image: url(Images/lines.png),
-   					  url(Images/bg_image_4.png);
+    background-image: url(../Images/lines.png),
+   					  url(../Images/bg_image_4.png);
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: 2px;
@@ -275,7 +275,7 @@ article img{ /*размер изображений слайдера*/
 #switch3:checked ~ #controls label:nth-child(2),
 #switch4:checked ~ #controls label:nth-child(3),
 #switch5:checked ~ #controls label:nth-child(4){
-	background: url(Images/prev.png) no-repeat; /*заливка фона картинкой без повторений*/
+	background: url(../Images/prev.png) no-repeat; /*заливка фона картинкой без повторений*/
 	float: left;
 	margin: -60px 0 0 -70px; /*сдвиг влево*/
 	display: block;
@@ -289,7 +289,7 @@ article img{ /*размер изображений слайдера*/
 #switch3:checked ~ #controls label:nth-child(4),
 #switch4:checked ~ #controls label:nth-child(5),
 #switch5:checked ~ #controls label:nth-child(1){
-	background: url(Images/next.png) no-repeat; /*заливка фона картинкой без повторений*/
+	background: url(../Images/next.png) no-repeat; /*заливка фона картинкой без повторений*/
 	float: right;
 	margin: -60px -70px 0 0; /*сдвиг вправо*/
 	display: block;
@@ -377,7 +377,7 @@ label, a{ /*при наведении на стрелки или переклю�
     display: block;
     margin: 0px auto;
     background-color: purple;
-    background-image: url(Images/bg_image_footer.jpg);
+    background-image: url(../Images/bg_image_footer.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
